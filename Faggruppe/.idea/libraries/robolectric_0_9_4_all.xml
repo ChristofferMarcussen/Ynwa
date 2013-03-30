@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="robolectric-0.9.4-all">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/test/robolectric-0.9.4-all.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/libs/test/robolectric-0.9.4-all.jar!/" />
+    </SOURCES>
+  </library>
+</component>

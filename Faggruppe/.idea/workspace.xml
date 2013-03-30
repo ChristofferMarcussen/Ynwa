@@ -30,9 +30,8 @@
     <list default="true" id="54e2e9d2-84d3-4ff9-b0bd-0bef59a6dd0f" name="Default" comment="" />
     <ignored path="Faggruppe.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="$PROJECT_DIR$/res/values/strings.xml" changelist="54e2e9d2-84d3-4ff9-b0bd-0bef59a6dd0f" time="1364048656741" ignored="false" />
     <file path="/RoboGuiceActivityTest.java" changelist="54e2e9d2-84d3-4ff9-b0bd-0bef59a6dd0f" time="1364662002174" ignored="false" />
-    <file path="/RoboGuiceActivity.java" changelist="54e2e9d2-84d3-4ff9-b0bd-0bef59a6dd0f" time="1364663199140" ignored="false" />
+    <file path="/RoboGuiceActivity.java" changelist="54e2e9d2-84d3-4ff9-b0bd-0bef59a6dd0f" time="1364665579158" ignored="false" />
     <file path="/fragment.java" changelist="54e2e9d2-84d3-4ff9-b0bd-0bef59a6dd0f" time="1364591889427" ignored="false" />
     <file path="$PROJECT_DIR$/../ynwa/TestProject/gen/com/example/TestProject/BuildConfig.java" changelist="54e2e9d2-84d3-4ff9-b0bd-0bef59a6dd0f" time="1364070646741" ignored="false" />
     <file path="/RoboGuiceActivity_updated.java" changelist="54e2e9d2-84d3-4ff9-b0bd-0bef59a6dd0f" time="1364071791391" ignored="false" />
@@ -43,6 +42,7 @@
     <file path="/Result.java" changelist="54e2e9d2-84d3-4ff9-b0bd-0bef59a6dd0f" time="1364656971131" ignored="false" />
     <file path="/Calculator.java" changelist="54e2e9d2-84d3-4ff9-b0bd-0bef59a6dd0f" time="1364582855295" ignored="false" />
     <file path="/FaggruppeActivity.java" changelist="54e2e9d2-84d3-4ff9-b0bd-0bef59a6dd0f" time="1364590787078" ignored="false" />
+    <file path="/RobolectricTest.java" changelist="54e2e9d2-84d3-4ff9-b0bd-0bef59a6dd0f" time="1364673509331" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,10 +101,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="RoboGuiceActivity.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/bekk/Faggruppe/RoboGuiceActivity.java">
+      <file leaf-file-name="RobotiumTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RobotiumTest/src/com/bekk/Faggruppe/RobotiumTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="0" selection-start="1044" selection-end="1044" vertical-scroll-proportion="0.11259542">
+            <state line="27" column="18" selection-start="846" selection-end="846" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RobolectricTest.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/RobolectricTest/src/RobolectricTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="49" selection-start="964" selection-end="964" vertical-scroll-proportion="0.2857143">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -112,79 +121,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RoboGuiceActivityTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RobotiumTest/src/com/bekk/Faggruppe/RoboGuiceActivityTest.java">
+      <file leaf-file-name="RoboGuiceActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/bekk/Faggruppe/RoboGuiceActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="80" column="30" selection-start="2868" selection-end="2868" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#2970#3081#0" expanded="true" />
-                <element signature="e#3070#3071#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="38" selection-start="435" selection-end="435" vertical-scroll-proportion="-2.8846154">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TraditionalActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/bekk/Faggruppe/TraditionalActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="13" selection-start="250" selection-end="250" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ResultActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/bekk/Faggruppe/ResultActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="82" selection-start="1118" selection-end="1118" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Result.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/bekk/Faggruppe/domain/Result.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="11" selection-start="131" selection-end="131" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RobotiumTest/AndroidManifest.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="33" selection-start="1109" selection-end="1109" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyEvent.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/bekk/Faggruppe/MyEvent.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="1" selection-start="223" selection-end="223" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Calculator.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/bekk/Faggruppe/http/Calculator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="23" selection-start="1294" selection-end="1294" vertical-scroll-proportion="0.0">
+            <state line="24" column="30" selection-start="908" selection-end="908" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -212,7 +152,10 @@
         <option value="$PROJECT_DIR$/src/com/bekk/Faggruppe/domain/Result.java" />
         <option value="$PROJECT_DIR$/src/com/bekk/Faggruppe/ResultActivity.java" />
         <option value="$PROJECT_DIR$/RobotiumTest/src/com/bekk/Faggruppe/RoboGuiceActivityTest.java" />
+        <option value="$PROJECT_DIR$/RobotiumTest/src/com/bekk/Faggruppe/RobotiumTest.java" />
+        <option value="$PROJECT_DIR$/RobotiumTest/src/com/bekk/Faggruppe/RobolectricTest.java" />
         <option value="$PROJECT_DIR$/src/com/bekk/Faggruppe/RoboGuiceActivity.java" />
+        <option value="$PROJECT_DIR$/RobolectricTest/src/RobolectricTest.java" />
       </list>
     </option>
   </component>
@@ -233,6 +176,11 @@
   </component>
   <component name="ProjectReloadState">
     <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectStructureProblems">
+    <ignored-problems>
+      <problem id="unused-library(library:project:robolectric-2.0-alpha-3-20130323.011330-28)" />
+    </ignored-problems>
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
@@ -294,24 +242,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="RobotiumTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Faggruppe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Faggruppe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RobotiumTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -319,18 +249,8 @@
               <option name="myItemId" value="Faggruppe" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Faggruppe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Faggruppe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
+              <option name="myItemId" value="domain" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -348,7 +268,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
+              <option name="myItemId" value="values" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -362,7 +282,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="libs" />
+              <option name="myItemId" value="res" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -380,7 +300,7 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/libs/javax.inject-1.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/libs/test/robolectric-0.9.4-all.jar!/" />
     <property name="AndroidLayoutSelectedEditor" value="text-editor" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="emulator-5554" />
@@ -394,104 +314,126 @@
     <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="Downloaded.Files.Path" value="$PROJECT_DIR$/libs" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/libs/test" />
+      <recent name="$PROJECT_DIR$/libs/production" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.bekk.Faggruppe" />
     </key>
   </component>
-  <component name="RunManager" selected="Android Tests.RoboGuiceActivityTest">
-    <configuration default="false" name="RoboGuiceActivity" type="AndroidRunConfigurationType" factoryName="Android Application" temporary="true">
-      <module name="Faggruppe" />
-      <option name="ACTIVITY_CLASS" value="com.bekk.Faggruppe.RoboGuiceActivity" />
-      <option name="MODE" value="specific_activity" />
-      <option name="DEPLOY" value="true" />
-      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <RunnerSettings RunnerId="AndroidDebugRunner" />
-      <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
+  <component name="RunManager" selected="JUnit.RobolectricTest.should_start_result_activity_when_user_clicks_add_button">
+    <configuration default="false" name="RobolectricTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="RobolectricTest" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RobolectricTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="RoboGuiceActivityTest.test_that_clicking_minus_button_starts_result_activity" type="AndroidTestRunConfigurationType" factoryName="Android Tests" temporary="true">
-      <module name="RobotiumTest" />
-      <option name="TESTING_TYPE" value="3" />
-      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
-      <option name="METHOD_NAME" value="test_that_clicking_minus_button_starts_result_activity" />
-      <option name="CLASS_NAME" value="com.bekk.Faggruppe.RoboGuiceActivityTest" />
+    <configuration default="false" name="RobolectricTest.should_find_correct_activity" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="RobolectricTest" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <RunnerSettings RunnerId="AndroidDebugRunner" />
-      <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
+      <option name="MAIN_CLASS_NAME" value="RobolectricTest" />
+      <option name="METHOD_NAME" value="should_find_correct_activity" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="RoboGuiceActivityTest.test_add_numbers_when_pluss_button_is_clicked" type="AndroidTestRunConfigurationType" factoryName="Android Tests" temporary="true">
-      <module name="RobotiumTest" />
-      <option name="TESTING_TYPE" value="3" />
-      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
-      <option name="METHOD_NAME" value="test_add_numbers_when_pluss_button_is_clicked" />
-      <option name="CLASS_NAME" value="com.bekk.Faggruppe.RoboGuiceActivityTest" />
+    <configuration default="false" name="RobolectricTest.shouldGoFOrIT" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="RobolectricTest" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <RunnerSettings RunnerId="AndroidDebugRunner" />
-      <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
+      <option name="MAIN_CLASS_NAME" value="RobolectricTest" />
+      <option name="METHOD_NAME" value="shouldGoFOrIT" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="RoboGuiceActivityTest" type="AndroidTestRunConfigurationType" factoryName="Android Tests" temporary="true">
-      <module name="RobotiumTest" />
-      <option name="TESTING_TYPE" value="2" />
-      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="CLASS_NAME" value="com.bekk.Faggruppe.RoboGuiceActivityTest" />
+    <configuration default="false" name="RobolectricTest.should_start_result_activity_when_user_clicks_add_button" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="RobolectricTest" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <RunnerSettings RunnerId="AndroidDebugRunner" />
-      <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
+      <option name="MAIN_CLASS_NAME" value="RobolectricTest" />
+      <option name="METHOD_NAME" value="should_start_result_activity_when_user_clicks_add_button" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="RoboGuiceActivityTest.test_subtract_numbers_when_minus_button_is_clicked" type="AndroidTestRunConfigurationType" factoryName="Android Tests" temporary="true">
-      <module name="RobotiumTest" />
-      <option name="TESTING_TYPE" value="3" />
-      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
-      <option name="METHOD_NAME" value="test_subtract_numbers_when_minus_button_is_clicked" />
-      <option name="CLASS_NAME" value="com.bekk.Faggruppe.RoboGuiceActivityTest" />
+    <configuration default="false" name="RobolectricTest.should_start_result_activity_when_user_clicks_subtract_button" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="RobolectricTest" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <RunnerSettings RunnerId="AndroidDebugRunner" />
-      <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
+      <option name="MAIN_CLASS_NAME" value="RobolectricTest" />
+      <option name="METHOD_NAME" value="should_start_result_activity_when_user_clicks_subtract_button" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -633,19 +575,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Android Application.Faggruppe" />
-      <item index="1" class="java.lang.String" itemvalue="Android Application.RoboGuiceActivity" />
-      <item index="2" class="java.lang.String" itemvalue="Android Tests.RoboGuiceActivityTest.test_that_clicking_minus_button_starts_result_activity" />
-      <item index="3" class="java.lang.String" itemvalue="Android Tests.RoboGuiceActivityTest.test_add_numbers_when_pluss_button_is_clicked" />
-      <item index="4" class="java.lang.String" itemvalue="Android Tests.RoboGuiceActivityTest" />
-      <item index="5" class="java.lang.String" itemvalue="Android Tests.RoboGuiceActivityTest.test_subtract_numbers_when_minus_button_is_clicked" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.RobolectricTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.RobolectricTest.should_find_correct_activity" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.RobolectricTest.shouldGoFOrIT" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.RobolectricTest.should_start_result_activity_when_user_clicks_add_button" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.RobolectricTest.should_start_result_activity_when_user_clicks_subtract_button" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Android Tests.RoboGuiceActivityTest" />
-        <item index="1" class="java.lang.String" itemvalue="Android Application.RoboGuiceActivity" />
-        <item index="2" class="java.lang.String" itemvalue="Android Tests.RoboGuiceActivityTest.test_subtract_numbers_when_minus_button_is_clicked" />
-        <item index="3" class="java.lang.String" itemvalue="Android Tests.RoboGuiceActivityTest" />
-        <item index="4" class="java.lang.String" itemvalue="Android Tests.RoboGuiceActivityTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.RobolectricTest.should_start_result_activity_when_user_clicks_add_button" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.RobolectricTest.should_start_result_activity_when_user_clicks_subtract_button" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.RobolectricTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.RobolectricTest.should_find_correct_activity" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.RobolectricTest.shouldGoFOrIT" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -702,11 +644,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1680" height="938" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32899627" sideWeight="0.6703163" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3997555" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -719,13 +660,14 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17380661" sideWeight="0.6748166" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32518336" sideWeight="0.49504337" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17380661" sideWeight="0.6760391" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32396087" sideWeight="0.49504337" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925338" sideWeight="0.6735941" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2129743" sideWeight="0.6735941" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32899627" sideWeight="0.6703163" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296837" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -791,24 +733,25 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/android-sdks/platforms/android-8/android.jar!/android/view/KeyEvent.class">
+    <entry file="file://$PROJECT_DIR$/RobotiumTest/src/com/bekk/Faggruppe/RobotiumTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="28" selection-start="1305" selection-end="1305" vertical-scroll-proportion="0.33333334" />
+        <state line="27" column="18" selection-start="846" selection-end="846" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RobolectricTest/src/RobolectricTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="25" selection-start="55" selection-end="55" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/android-sdks/platforms/android-8/android.jar!/android/view/View.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="222" column="25" selection-start="10248" selection-end="10248" vertical-scroll-proportion="0.332696" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/result_layout.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/android-sdks/platforms/android-8/android.jar!/android/test/ActivityInstrumentationTestCase2.class">
@@ -821,85 +764,70 @@
         <state line="219" column="16" selection-start="9908" selection-end="9908" vertical-scroll-proportion="0.33333334" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="19" selection-start="856" selection-end="856" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bekk/Faggruppe/MyEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="1" selection-start="223" selection-end="223" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RobotiumTest/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="33" selection-start="1109" selection-end="1109" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bekk/Faggruppe/domain/Result.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="11" selection-start="131" selection-end="131" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bekk/Faggruppe/http/Calculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="23" selection-start="1294" selection-end="1294" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bekk/Faggruppe/ResultActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="82" selection-start="1118" selection-end="1118" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bekk/Faggruppe/TraditionalActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="13" selection-start="250" selection-end="250" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/Downloads/robotium-solo-3.6.jar!/com/jayway/android/robotium/solo/Solo.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="348" column="16" selection-start="16602" selection-end="16602" vertical-scroll-proportion="0.50901806">
+        <state line="348" column="16" selection-start="16602" selection-end="16602" vertical-scroll-proportion="0.50901806" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="45" selection-start="79" selection-end="96" vertical-scroll-proportion="0.06">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/gen/com/bekk/Faggruppe/BuildConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="38" selection-start="435" selection-end="435" vertical-scroll-proportion="-2.8846154">
+        <state line="3" column="19" selection-start="99" selection-end="99" vertical-scroll-proportion="0.08571429">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RobotiumTest/src/com/bekk/Faggruppe/RoboGuiceActivityTest.java">
+    <entry file="file://$PROJECT_DIR$/gen/com/bekk/Faggruppe/R.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="30" selection-start="2868" selection-end="2868" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#2970#3081#0" expanded="true" />
-            <element signature="e#3070#3071#0" expanded="true" />
-          </folding>
+        <state line="4" column="31" selection-start="142" selection-end="142" vertical-scroll-proportion="0.114285715">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gen/com/bekk/Faggruppe/Manifest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="19" selection-start="144" selection-end="144" vertical-scroll-proportion="0.08571429">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RobotiumTest/gen/com/bekk/Faggruppe/tests/R.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="19" selection-start="143" selection-end="143" vertical-scroll-proportion="0.08571429">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/test/junit-4.8.2.jar!/org/junit/internal/requests/FilterRequest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="548" selection-end="548" vertical-scroll-proportion="0.36">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RobotiumTest/src/com/bekk/Faggruppe/RobotiumTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="18" selection-start="846" selection-end="846" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/bekk/Faggruppe/RoboGuiceActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="0" selection-start="1044" selection-end="1044" vertical-scroll-proportion="0.11259542">
+        <state line="24" column="30" selection-start="908" selection-end="908" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RobolectricTest/src/RobolectricTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="49" selection-start="964" selection-end="964" vertical-scroll-proportion="0.2857143">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -960,12 +888,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Faggruppe</last-edited>
+          <last-edited>RobolectricTest</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -985,7 +912,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>javax.inject-1</last-edited>
+          <last-edited>robolectric-0.9.4-all</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

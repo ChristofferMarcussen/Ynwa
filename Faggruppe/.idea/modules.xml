@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Faggruppe.iml" filepath="$PROJECT_DIR$/Faggruppe.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RobolectricTest/RobolectricTest.iml" filepath="$PROJECT_DIR$/RobolectricTest/RobolectricTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/RobotiumTest/RobotiumTest.iml" filepath="$PROJECT_DIR$/RobotiumTest/RobotiumTest.iml" />
     </modules>
   </component>

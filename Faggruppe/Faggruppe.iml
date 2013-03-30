@@ -41,14 +41,14 @@
     <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/libs/guice-3.0-no_aop.jar!/" />
-          <root url="jar://$MODULE_DIR$/libs/jsr305-1.3.9.jar!/" />
-          <root url="jar://$MODULE_DIR$/libs/roboguice-2.0.jar!/" />
-          <root url="jar://$MODULE_DIR$/libs/robolectric-2.0-alpha-3-20130323.011330-28.jar!/" />
+          <root url="jar://$MODULE_DIR$/libs/production/guice-3.0-no_aop.jar!/" />
+          <root url="jar://$MODULE_DIR$/libs/production/jsr305-1.3.9.jar!/" />
+          <root url="jar://$MODULE_DIR$/libs/production/roboguice-2.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/libs/production/robolectric-2.0-alpha-3-20130323.011330-28.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES>
-          <root url="jar://$MODULE_DIR$/libs/jsr305-1.3.9.jar!/" />
+          <root url="jar://$MODULE_DIR$/libs/production/jsr305-1.3.9.jar!/" />
         </SOURCES>
       </library>
     </orderEntry>
