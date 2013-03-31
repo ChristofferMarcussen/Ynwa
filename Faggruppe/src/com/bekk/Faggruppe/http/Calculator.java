@@ -14,10 +14,13 @@ public class Calculator {
             DefaultHttpClient httpclient = new DefaultHttpClient();
             String url = "http://www.calcatraz.com/calculator/api?c="+firstNumber+"-"+secondNumber;
             HttpGet get = new HttpGet(url);
-            String result = EntityUtils.toString(httpclient.execute(get)
+            String response = EntityUtils.toString(httpclient.execute(get)
                     .getEntity(), "UTF-8");
 
-            return null;
+            Result result = new Result();
+            result.setNumber(response);
+
+            return result;
 
         } catch (Exception e) {
             e.printStackTrace();
@@ -29,10 +32,13 @@ public class Calculator {
             DefaultHttpClient httpclient = new DefaultHttpClient();
             String url = "http://www.calcatraz.com/calculator/api?c="+firstNumber+"%2B"+secondNumber;
             HttpGet get = new HttpGet(url);
-            String result = EntityUtils.toString(httpclient.execute(get)
+            String response = EntityUtils.toString(httpclient.execute(get)
                     .getEntity(), "UTF-8");
 
-            return null;
+            Result result = new Result();
+            result.setNumber(response);
+
+            return result;
 
         } catch (Exception e) {
             e.printStackTrace();
