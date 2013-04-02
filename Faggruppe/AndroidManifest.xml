@@ -11,14 +11,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="RoboGuiceActivity">
+        <activity android:name="FagruppeMoteRoboGuiceActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
         <activity android:name=".ResultActivity"/>
+        <activity android:name=".FagruppeMoteRoboGuiceActivity"/>
         <supports-screens android:anyDensity="true"/>
-
     </application>
-</manifest> 
+    <uses-permission android:name="android.permission.INTERNET" />
+</manifest>

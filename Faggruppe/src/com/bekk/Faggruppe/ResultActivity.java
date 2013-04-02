@@ -32,7 +32,6 @@ public class ResultActivity extends RoboActivity {
                 int firstNumber = Integer.parseInt(first);
                 int secondNumber = Integer.parseInt(second);
                 result.setNumber((firstNumber - secondNumber) + "");
-                resultTextView.setText(result.getNumber() + "");
             }
             resultTextView.setText(result.getNumber() + "");
         }

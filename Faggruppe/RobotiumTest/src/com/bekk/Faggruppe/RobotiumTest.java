@@ -2,14 +2,11 @@ package com.bekk.Faggruppe;
 
 import android.test.ActivityInstrumentationTestCase2;
 import android.view.KeyEvent;
-import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import com.jayway.android.robotium.solo.Solo;
 
-// ActivityInstrumentationTestCase2 blir brukt til ende-til-ende tester
-// ActivityUnitTestCase blir brukt til det enkleste av enhetstester (færre muligheter)
 public class RobotiumTest extends ActivityInstrumentationTestCase2<RoboGuiceActivity> {
 
     private Solo solo;
@@ -32,7 +29,6 @@ public class RobotiumTest extends ActivityInstrumentationTestCase2<RoboGuiceActi
         secondInputView = (EditText) solo.getView(R.id.secondInputField);
         plussButton = (Button) solo.getView(R.id.plussButton);
         minusButton = (Button) solo.getView(R.id.minusButton);
-
     }
 
     public void test_that_clicking_pluss_button_starts_result_activity() {

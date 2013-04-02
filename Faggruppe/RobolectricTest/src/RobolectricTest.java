@@ -10,15 +10,12 @@ import com.xtremelabs.robolectric.Robolectric;
 import com.xtremelabs.robolectric.RobolectricTestRunner;
 import com.xtremelabs.robolectric.shadows.ShadowActivity;
 import com.xtremelabs.robolectric.shadows.ShadowIntent;
-import com.xtremelabs.robolectric.shadows.ShadowTextView;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
 import static org.hamcrest.Matchers.equalTo;
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNotNull;
-import static org.junit.Assert.assertThat;
+import static org.junit.Assert.*;
 
 @RunWith(RobolectricTestRunner.class)
 public class RobolectricTest {
@@ -77,7 +74,7 @@ public class RobolectricTest {
     }
 
     @Test
-    public void should_start_result_activity_when_user_clicks_add_button_and_add_numbers() {
+    public void should_put_extras_when_pluss_button_is_clicked() {
         firstInput.setText("2");
         secondInput.setText("1");
         plussButton.performClick();
@@ -86,19 +83,13 @@ public class RobolectricTest {
         Intent startedIntent = shadowActivity.getNextStartedActivity();
         ShadowIntent shadowIntent = Robolectric.shadowOf(startedIntent);
 
-        resultActivity.setIntent(startedIntent);
-        resultActivity.onCreate(null);
-        resultTextView = (TextView) resultActivity.findViewById(R.id.resultTextView);
-
-        assertThat(shadowIntent.getComponent().getClassName(), equalTo(ResultActivity.class.getName()));
         assertEquals("add", shadowIntent.getExtras().getString("operator"));
         assertEquals("2", shadowIntent.getExtras().getString("firstNumber"));
         assertEquals("1", shadowIntent.getExtras().getString("secondNumber"));
-        assertEquals("3", resultTextView.getText());
     }
 
     @Test
-    public void should_start_result_activity_when_user_clicks_subtract_button_and_subtract_numbers() {
+    public void should_put_extras_when_minus_button_is_clicked() {
         firstInput.setText("2");
         secondInput.setText("1");
         minusButton.performClick();
@@ -107,16 +98,44 @@ public class RobolectricTest {
         Intent startedIntent = shadowActivity.getNextStartedActivity();
         ShadowIntent shadowIntent = Robolectric.shadowOf(startedIntent);
 
-        resultActivity = new TraditionalResultActivity();
+        assertEquals("subtract", shadowIntent.getExtras().getString("operator"));
+        assertEquals("2", shadowIntent.getExtras().getString("firstNumber"));
+        assertEquals("1", shadowIntent.getExtras().getString("secondNumber"));
+    }
+
+    @Test
+    public void should_start_result_activity_when_user_clicks_add_button_and_add_numbers() {
+        Robolectric.addPendingHttpResponse(200, "3");
+        firstInput.setText("2");
+        secondInput.setText("1");
+        plussButton.performClick();
+
+        ShadowActivity shadowActivity = Robolectric.shadowOf(activity);
+        Intent startedIntent = shadowActivity.getNextStartedActivity();
+
         resultActivity.setIntent(startedIntent);
         resultActivity.onCreate(null);
         resultTextView = (TextView) resultActivity.findViewById(R.id.resultTextView);
 
-        assertThat(shadowIntent.getComponent().getClassName(), equalTo(ResultActivity.class.getName()));
-        assertEquals("subtract", shadowIntent.getExtras().getString("operator"));
-        assertEquals("2", shadowIntent.getExtras().getString("firstNumber"));
-        assertEquals("1", shadowIntent.getExtras().getString("secondNumber"));
+        assertEquals("3", resultTextView.getText());
+    }
+
+    @Test
+    public void should_start_result_activity_when_user_clicks_subtract_button_and_subtract_numbers() {
+        Robolectric.addPendingHttpResponse(200, "1");
+        firstInput.setText("2");
+        secondInput.setText("1");
+        minusButton.performClick();
+
+        ShadowActivity shadowActivity = Robolectric.shadowOf(activity);
+        Intent startedIntent = shadowActivity.getNextStartedActivity();
+
+        resultActivity.setIntent(startedIntent);
+        resultActivity.onCreate(null);
+        resultTextView = (TextView) resultActivity.findViewById(R.id.resultTextView);
+
         assertEquals("1", resultTextView.getText());
     }
 
 }
+
